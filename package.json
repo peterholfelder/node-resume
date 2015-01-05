@@ -5,4 +5,8 @@
     "express": "latest",
     "http": "latest"
   }
+  "scripts": {
+    "start": "node index.js"
+  },
+  "main": "index.js"
 }
