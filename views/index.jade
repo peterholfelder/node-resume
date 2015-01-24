@@ -7,6 +7,8 @@ html(lang="en")
 	meta(name="author", content="Peter Holfelder")
 	link(href="./dist/css/bootstrap.min.css", rel="stylesheet")
 	link(href="./dist/css/carousel.css", rel="stylesheet")
+	link(href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css", rel="stylesheet")
+
 	body
 		div(class="container")
 			h1
@@ -16,9 +18,10 @@ html(lang="en")
 			h2 Public Profiles
 			ul
 				li
-					a(href="https://github.com/peterholfelder") Github
+					a(href="https://github.com/peterholfelder") Github 
+					!= icon('github') 
 				li
-					a(href="http://linkedin.com/in/usetechnologybetter") LinkedIn
+					a(href="http://linkedin.com/in/usetechnologybetter").i.fa.fa-linkedin  LinkedIn
 				li
 					a(href="https://twitter.com/pjholfelder") Twitter: @pjholfelder
 				li

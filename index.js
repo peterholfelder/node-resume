@@ -12,6 +12,8 @@ app.set('views', './views');
 app.set('view engine', 'jade');
 app.use(express.static(__dirname + '/public'));
 
+app.locals.icon = function(icon){ return '<i class="fa fa-' + icon + '"></i>'; };
+
 app.get('/', function(req, res) {
   res.render('index');
 });
